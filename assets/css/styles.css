@@ -1,0 +1,79 @@
+
+body{
+    background-size: cover;
+    background-image: url(/assets/media/espacio.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+header{
+    text-align: center;
+}
+header div {
+    background-color: rgb(220, 244, 220);
+    width: 10%;
+    aspect-ratio: 2;
+    height:10%;
+    border:3px solid rgb(115, 15, 15);
+    border-radius: 15px;
+    display:inline-block;
+    color: transparent;
+    margin-left: 50px;
+    transition: all 200ms ease-in-out;
+    filter: grayscale(100%) contrast(200%);
+
+}
+header div:hover {
+    /* background-color: aquamarine; */
+    
+    filter: grayscale(0%) contrast(200%);
+    /*zoom: 115%;*/
+    
+   
+  }
+.google{
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image:url("/assets/media/google.png");
+    padding: 5px;
+}
+.youtube{
+    position: relative;
+   
+    background-position: center;
+    background-size: cover;
+    background-image:url("/assets/media/youtube.png");
+    padding: 5px;
+}
+.gmail{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image:url("/assets/media/gmail.png");
+    padding: 5px;
+}
+.gpt{
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-image:url("/assets/media/openai.jpg");
+    padding: 5px;
+}
+.bard{
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-image:url("/assets/media/Bard-AI-Logo.jpg");
+    padding: 5px;
+}
+.cdc{
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-image:url("/assets/media/cdc.png");
+    padding: 5px;
+}
+
